@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost:3306";
-$user = "root";
-$pass = "toor";
-$database = "castlevania";
+$servername = "localhost:3306"; // your db address
+$user = "root"; // your db user
+$pass = "toor"; // your db password
+$database = "castlevania"; // your database name
 
 $username = $_POST["fusername"];
 $password = $_POST["fpassword"];
@@ -15,7 +15,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 echo nl2br("Connected successfully\n");
-// Esegui query
+// Execute query
 $conn->query("insert into utente (username, passw) values ('$username','$password');");
 if(!$conn)
 {

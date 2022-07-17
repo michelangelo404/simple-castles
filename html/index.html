@@ -25,9 +25,9 @@
         </div>
         <form>
             <div>
-                <button type="button" class="button" onclick="apriSchermLog();">Ho già un account</button>
+                <button type="button" class="button" onclick="apriSchermLog();">I already have an account</button>
                 <br></br>
-                <button type="button" class="button" onclick="apriSchermReg();">Devo registrarmi</button>
+                <button type="button" class="button" onclick="apriSchermReg();">Register here</button>
             </div>
         </form>
     </div>
@@ -37,7 +37,7 @@
             <div class="shape"></div>
         </div>
         <form>
-            <h3 style="color:antiquewhite">Effettua l'accesso al tuo account</h3>
+            <h3 style="color:antiquewhite">Log in to your account</h3>
     
             <label for="username">Username</label>
             <input type="text" placeholder="Username" id="userLog">
@@ -45,7 +45,7 @@
             <label for="password">Password</label>
             <input type="password" placeholder="Password" id="passwLog">
     
-            <button type="button" class="button" onclick="insUser();">Log In</button>
+            <button type="button" class="button" onclick="insUser();">Login</button>
         </form>
     </div>
     <div class="d-none" id="regist">
@@ -54,7 +54,7 @@
             <div class="shape"></div>
         </div>
         <form action="../api/connect.php" method="POST">
-            <h3 style="color:antiquewhite">Crea il tuo nuovo account</h3>
+            <h3 style="color:antiquewhite">Create your account</h3>
     
             <label for="username">Username</label>
             <input type="text" placeholder="Username" id="userReg" name="fusername">
@@ -64,9 +64,7 @@
     
             <button type="submit" class="button">Register</button>
         </form>
-        <a id="risposta">Risposta</a>
     </div>
-    <a id="risposta">Risposta</a>
 </body>
 
 </html>
