@@ -1,2 +1,2 @@
 # simple-castles
-Semplice gioco dove si dovrà gestire una piccola cittadina medioevale
+Simple game where you will have to manage a small medieval town
